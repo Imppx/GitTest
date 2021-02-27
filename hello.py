@@ -1,5 +1,5 @@
 def hello():
-    print "Hell world!"
+    print ('' is not None)
 
 if __name__ == "__main__":
     hello()
