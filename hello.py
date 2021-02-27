@@ -1,6 +1,4 @@
 import time
-
-
 import random
 
 
@@ -12,9 +10,12 @@ def getTimestamp():
     return int(time.time())
 
 
-
 def getRandom():
-    return random.randint(1, 100)
+    return random.randint(1, 200)
+
+
+def howOld():
+    print("Three Years Old.")
 
 
 if __name__ == "__main__":
