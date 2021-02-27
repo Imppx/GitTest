@@ -1,8 +1,16 @@
+import time
+
+
 import random
 
 
 def hello():
-    print('' is not None)
+    print ('lala' is not None)
+
+
+def getTimestamp():
+    return int(time.time())
+
 
 
 def getRandom():
